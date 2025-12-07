@@ -279,11 +279,11 @@ namespace _03_MakingDecision
             //char symbol;
 
             //Console.Write("1.Sayıyı Giriniz: ");
-            //number1= int.Parse(Console.ReadLine());
+            //number1 = int.Parse(Console.ReadLine());
             //Console.Write("2.Sayıyı Giriniz: ");
-            //number2= int.Parse(Console.ReadLine());
+            //number2 = int.Parse(Console.ReadLine());
             //Console.Write("Yapmak İstediğiniz İşlemin Sembolünü Giriniz: ");
-            //symbol= char.Parse(Console.ReadLine());
+            //symbol = char.Parse(Console.ReadLine());
 
             //switch (symbol)
             //{
@@ -311,6 +311,26 @@ namespace _03_MakingDecision
 
             #endregion
 
+            #region Örnek
+
+            //Console.Write("1.Sayıyı Giriniz: ");
+            //int number1= Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2.Sayıyı Giriniz: ");
+            //int number2= Convert.ToInt32(Console.ReadLine());
+
+            //if (number1 > number2)
+            //{
+            //    Console.WriteLine("1. Sayı En Büyük Sayıdır: " + number1);
+            //}
+            //else if (number2 > number1)
+            //{
+            //    Console.WriteLine("2. Sayı En Büyük Sayıdır: " + number2);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("1. Sayı: " + number1 + " - 2.Sayı: " + number2 + " Girilen 2 Sayı Birbirine Eşit");
+            //}
+            #endregion
             Console.Read();
         }
     }
