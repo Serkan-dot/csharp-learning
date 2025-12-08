@@ -181,6 +181,50 @@ namespace _06_Arrays
             //}
             #endregion
 
+            #region Örnek
+
+            //a dizesindekileri b dizesine tersten yazdırma
+            //Console.Write("Dizi Uzunluğunu Giriniz: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int[] a = new int[n];
+            //int[] b = new int[n];
+            //for(int i = 0; i <= a.Length - 1;i++)
+            //{
+            //    Console.Write($"{i + 1}. Sayıyı Giriniz: ");
+            //    int number= Convert.ToInt32(Console.ReadLine());
+            //    a[i] = number;
+            //}
+            //for(int i = 0; i <= a.Length - 1; i++)
+            //{
+            //    b[i] = a[(n - 1) - i];
+            //    Console.WriteLine($"{i+1}. Sayı: " + b[i]);
+            //}
+
+            //a,b dizesindeki aynı index numarasındaki sayıların toplamları c dizisindeki aynı index numarasına eklesin
+
+            //Console.Write("Dizilerin Uzunluğunu girin: ");
+            //int n= Convert.ToInt32(Console.ReadLine());
+            //int[] a = new int[n];
+            //int[] b = new int[n];
+            //int[] c = new int[n];
+
+            //for(int i = 0; i <= a.Length - 1; i++)
+            //{
+            //    Console.Write($"1.Dizinin {i + 1}.Sayısını Giriniz: ");
+            //    int aNumber= Convert.ToInt32(Console.ReadLine());
+            //    Console.Write($"2.Dizinin {i + 1}.Sayısını Giriniz: ");
+            //    int bNumber = Convert.ToInt32(Console.ReadLine());
+
+            //    a[i] = aNumber;
+            //    b[i] = bNumber;
+
+            //    c[i] = a[i] + b[i];
+            //}
+            //for(int i = 0; i <= c.Length - 1; i++)
+            //{
+            //    Console.WriteLine($"{i+1}.Sayı: "+c[i]);
+            //}
+            #endregion
             Console.Read();
         }
     }

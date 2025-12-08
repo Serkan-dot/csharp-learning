@@ -84,7 +84,7 @@ namespace _05_LoopsWithStars
 
             #endregion
 
-            #region Piramit Üçgen
+            #region Piramit
 
             //for(int i = 1; i <= 10; i+=2)
             //{
